@@ -3,11 +3,11 @@
     "coverage": {
       "/home/searching-cursor-5329/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
         1,
-        22,
-        22,
-        22,
-        22,
-        22,
+        23,
+        23,
+        23,
+        23,
+        23,
         null,
         null,
         1,
@@ -145,6 +145,6 @@
         null
       ]
     },
-    "timestamp": 1604712401
+    "timestamp": 1604712461
   }
 }
