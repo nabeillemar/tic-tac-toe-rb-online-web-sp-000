@@ -111,3 +111,31 @@ def over?(board)
     return false
   end
 end
+
+
+def winner(board)
+  if won?(board)
+    return board[won?(board)[0]]
+  end
+end
+
+def play(board)
+  counter = 0
+  until counter == 9
+  turn(board)
+  counter += 1
+  end
+end
+
+def play(board)
+  until over?(board)
+    turn(board) 
+  end
+  if won?(board)
+    winner(board) == "X" || winner(board) == "O"
+    puts "Congratulations #{winner(board)}!"
+  else draw?(board)
+    puts "Cat\'s Game!"
+  end
+end
+
